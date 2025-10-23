@@ -10,17 +10,17 @@
       logFile = "/tmp/nvim.log";
     };
 
-    lsp = {
-      enable = true;
+    statusline = {
+      lualine = {
+        enable = true;
+        theme = "auto";
+      };
+    };
 
-      formatOnSave = true;
-      lspkind.enable = false;
-      lightbulb.enable = true;
-      lspsaga.enable = false;
-      trouble.enable = true;
-      lspSignature.enable = false;
-      otter-nvim.enable = true;
-      nvim-docs-view.enable = true;
+    options = {
+      tabstop = 2;
+      shiftwidth = 2;
+      termguicolors = true;
     };
 
     autopairs.nvim-autopairs.enable = true;
@@ -37,15 +37,6 @@
 
     treesitter.context.enable = true;
     telescope.enable = true;
-
-    git = {
-      enable = true;
-      gitsigns = {
-        enable = true;
-        codeActions.enable = true;
-      };
-      neogit.enable = true;
-    };
 
     minimap = {
       minimap-vim.enable = true;
@@ -74,18 +65,6 @@
       };
     };
 
-    languages = {
-      enableTreesitter = true;
-
-      nix.enable = true;
-      markdown.enable = true;
-
-      python.enable = true;
-      clang.enable = true;
-      bash.enable = true;
-      css.enable = true;
-    };
-
     visuals = {
       nvim-scrollbar.enable = true;
       nvim-web-devicons.enable = true;
@@ -100,28 +79,5 @@
       cellular-automaton.enable = false;
     };
 
-    statusline = {
-      lualine = {
-        enable = true;
-        theme = "auto";
-      };
-    };
-
-    terminal = {
-      toggleterm = {
-        enable = true;
-        lazygit.enable = true;
-        setupOpts = {
-          direction = "float";
-        };
-      };
-    };
-
-    options = {
-      tabstop = 2;
-      shiftwidth = 2;
-      termguicolors = true;
-    };
   };
 }
-
