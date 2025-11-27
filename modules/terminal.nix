@@ -5,7 +5,7 @@
         enable = true;
         lazygit.enable = true;
         setupOpts = {
-          direction = "horizontal";
+          direction = "float";
         };
       };
     };
