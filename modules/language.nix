@@ -22,5 +22,6 @@
     clang.enable = true;
     bash.enable = true;
     css.enable = true;
+    typst.enable = true;
   };
 }
