@@ -18,9 +18,9 @@
         "<leader>pv".action = ":Ex<CR>";
         "<leader>t".action = ":ToggleTerm<CR>";
       };
-      visual = {};
-      insert = {};
-      command = {};
+      visual = { };
+      insert = { };
+      command = { };
     };
   };
 }

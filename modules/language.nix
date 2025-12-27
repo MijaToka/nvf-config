@@ -13,14 +13,12 @@
       nvim-docs-view.enable = true;
 
       servers = {
-        qmlls = {};
+        qmlls = { };
       };
     };
 
     languages = {
       enableTreesitter = true;
-      enableExtraDiagnostics = true;
-      enableFormat = true;
 
       nix.enable = true;
       markdown.enable = true;
