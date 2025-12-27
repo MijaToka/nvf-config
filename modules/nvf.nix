@@ -1,6 +1,5 @@
 {
   vim = {
-
     viAlias = true;
     vimAlias = true;
 
@@ -56,7 +55,7 @@
       project-nvim.enable = true;
     };
 
-    utility = { };
+    utility = {};
 
     debugger = {
       nvim-dap = {
@@ -78,6 +77,5 @@
       # Fun
       cellular-automaton.enable = false;
     };
-
   };
 }

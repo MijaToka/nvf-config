@@ -1,5 +1,5 @@
-let 
-  base16-colors = { 
+let
+  base16-colors = {
     base00 = "0f1c2c";
     base01 = "3c4566";
     base02 = "9c5560";
