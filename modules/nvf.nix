@@ -55,7 +55,7 @@
       project-nvim.enable = true;
     };
 
-    utility = {};
+    utility = { };
 
     debugger = {
       nvim-dap = {
