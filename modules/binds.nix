@@ -19,6 +19,10 @@
           action = ":Ex<CR>";
           desc = "Project view";
         };
+        "<leader>tp" = {
+          action = ":TypstPreview document<CR>";
+          desc = "Typst preview";
+        };
       };
       visual = { };
       insert = { };
