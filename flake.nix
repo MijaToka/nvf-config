@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
 
     nvf = {
       url = "github:NotAShelf/nvf";
@@ -10,11 +10,10 @@
 
   outputs =
     {
-      self,
       nixpkgs,
       nvf,
       ...
-    }@inputs:
+    }:
     let
       system = "x86_64-linux";
     in
