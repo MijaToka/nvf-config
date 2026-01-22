@@ -9,7 +9,7 @@
     };
 
     maps = {
-      normal."<leader>t" = {
+      normal."<leader>tt" = {
         action = ":ToggleTerm<CR>";
         desc = "ToggleTerm";
       };

@@ -3,7 +3,7 @@
     ./autopairs.nix
     ./bufferline.nix
     ./git.nix
-    ./language.nix
+    ./languages.nix
     ./lualine.nix
     ./luasnip.nix
     ./minimap.nix
