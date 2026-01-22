@@ -15,8 +15,10 @@
 
     maps = {
       normal = {
-        "<leader>pv".action = ":Ex<CR>";
-        "<leader>t".action = ":ToggleTerm<CR>";
+        "<leader>pv" = {
+          action = ":Ex<CR>";
+          desc = "Project view";
+        };
       };
       visual = { };
       insert = { };
