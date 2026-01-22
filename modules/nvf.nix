@@ -77,5 +77,7 @@
       # Fun
       cellular-automaton.enable = false;
     };
+
+    clipboard.enable = true;
   };
 }
