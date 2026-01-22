@@ -2,8 +2,10 @@
   imports = [
     ./autopairs.nix
     ./bufferline.nix
+    ./debugger_diagnostics.nix
     ./git.nix
     ./languages.nix
+    ./lsp.nix
     ./lualine.nix
     ./luasnip.nix
     ./minimap.nix

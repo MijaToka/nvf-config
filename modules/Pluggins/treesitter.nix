@@ -44,13 +44,15 @@ let
     # "vue"
   ];
   treesitterEnables = builtins.listToAttrs (builtins.map (
-  lang: {
-    name = lang;
-    value = {treesitter.enable = true; 
-  };
-  }) treeSitterLanguages);
-in
-{
+      lang: {
+        name = lang;
+        value = {
+          treesitter.enable = true;
+        };
+      }
+    )
+    treeSitterLanguages);
+in {
   vim.treesitter = {
     enable = true;
     fold = true;
@@ -58,9 +60,11 @@ in
     highlight.enable = true;
   };
 
-  vim.languages = {
-    enableFormat = true;
-    enableTreesitter = true;
-    enableExtraDiagnostics = true;
-  } // treesitterEnables;
+  vim.languages =
+    {
+      enableFormat = true;
+      enableTreesitter = true;
+      enableExtraDiagnostics = true;
+    }
+    // treesitterEnables;
 }

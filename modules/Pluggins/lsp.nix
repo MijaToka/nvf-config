@@ -6,7 +6,7 @@
       formatOnSave = true;
       lspkind.enable = false;
       lightbulb.enable = true;
-      nul-ls.enable = true;
+      null-ls.enable = true;
 
       lspsaga = {
         enable = true;
