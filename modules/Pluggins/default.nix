@@ -15,5 +15,6 @@
     ./telescope.nix
     ./toggleTerm.nix
     ./treesitter.nix
+    ./yazi.nix
   ];
 }
