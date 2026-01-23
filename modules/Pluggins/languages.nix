@@ -26,7 +26,7 @@
 
         format = {
           enable = true;
-          type = [ "alejandra" ];
+          type = [ "nixfmt" ];
         };
 
         lsp = {
@@ -78,6 +78,5 @@
         lsp.enable = true;
       };
     };
-
   };
 }

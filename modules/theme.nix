@@ -17,7 +17,8 @@ let
     base0E = "c77c81";
     base0F = "918bbb";
   };
-in {
+in
+{
   vim.theme = {
     enable = true;
     name = "base16";

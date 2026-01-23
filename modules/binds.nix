@@ -24,9 +24,9 @@
           desc = "Typst preview";
         };
       };
-      visual = { };
-      insert = { };
-      command = { };
+      visual = {};
+      insert = {};
+      command = {};
     };
   };
 }
