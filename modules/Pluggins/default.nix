@@ -15,6 +15,7 @@
     ./telescope.nix
     ./toggleTerm.nix
     ./treesitter.nix
+    ./ufo.nix
     ./yazi.nix
   ];
 }
