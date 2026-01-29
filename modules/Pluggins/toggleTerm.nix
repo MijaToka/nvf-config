@@ -7,12 +7,5 @@
         direction = "float";
       };
     };
-
-    maps = {
-      normal."<leader>tt" = {
-        action = ":ToggleTerm<CR>";
-        desc = "ToggleTerm";
-      };
-    };
   };
 }

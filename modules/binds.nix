@@ -23,10 +23,23 @@
           action = ":TypstPreview document<CR>";
           desc = "Typst preview";
         };
+        "<leader>tw" = {
+          action = ":terminal<CR>";
+          desc = "Open terminal window";
+        };
+        "<leader>tt" = {
+          action = ":ToggleTerm<CR>";
+          desc = "ToggleTerm";
+        };
+
+        "<leader>py" = {
+          action = ":Yazi<CR>";
+          desc = "Open yazi";
+        };
       };
-      visual = {};
-      insert = {};
-      command = {};
+      visual = { };
+      insert = { };
+      command = { };
     };
   };
 }
