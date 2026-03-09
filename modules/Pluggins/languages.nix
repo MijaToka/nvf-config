@@ -1,6 +1,29 @@
 {
   vim = {
-    autocomplete.blink-cmp.enable = true;
+    autocomplete.blink-cmp = {
+      enable = true;
+
+      mappings = {
+        close = "<C-e>";
+        complete = "<C-Space>";
+        confirm = "<CR>";
+        next = "<Tab>";
+        previous = "<S-Tab>";
+        scrollDocsDown = "<C-f>";
+        scrollDocsUp = "<C-d>";
+      };
+
+      setupOpts = {
+        sources = {
+          default = [
+            "lsp"
+            "snippets"
+            "path"
+            "buffer"
+          ];
+        };
+      };
+    };
 
     languages = {
       enableTreesitter = true;
