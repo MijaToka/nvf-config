@@ -1,3 +1,5 @@
 {
-  vim.snippets.luasnip.enable = true;
+  vim.snippets.luasnip = {
+    enable = true;
+  };
 }
