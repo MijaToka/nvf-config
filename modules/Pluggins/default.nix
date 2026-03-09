@@ -12,6 +12,7 @@
     ./neotree.nix
     ./notify.nix
     ./projects.nix
+    ./remote.nix
     ./telescope.nix
     ./toggleTerm.nix
     ./treesitter.nix
