@@ -32,7 +32,7 @@ let
     # "fish"
     # "haskell"
     # "julia"
-    # "latex"
+    "tex"
     # "ocaml"
     # "php"
     # "r"
