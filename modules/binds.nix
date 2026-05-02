@@ -40,6 +40,11 @@
       visual = { };
       insert = { };
       command = { };
+      terminal = {
+        "<esc><esc>" = {
+          action = "<C-\\><C-n>";
+        };
+      };
     };
   };
 }
