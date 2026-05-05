@@ -7,6 +7,9 @@
       tabstop = 2;
       shiftwidth = 2;
       termguicolors = true;
+      foldenable = true;
+      foldlevel = 99;
+      foldlevelstart = 99;
     };
 
     debugMode = {
