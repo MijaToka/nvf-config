@@ -64,6 +64,7 @@
           ];
         };
       };
+
       markdown = {
         enable = true;
         format.enable = true;
@@ -89,7 +90,6 @@
         enable = true;
         format.enable = true;
         lsp.enable = true;
-        treesitter.enable = true;
         extensions = {
           typst-preview-nvim.enable = true;
         };
@@ -99,6 +99,16 @@
         enable = true;
         format.enable = true;
         lsp.enable = true;
+      };
+
+      tex = {
+        enable = true;
+        lsp.enable = true;
+        format.enable = true;
+      };
+
+      lua = {
+        enable = true;
       };
     };
   };

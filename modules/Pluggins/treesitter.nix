@@ -9,7 +9,7 @@ let
     #"js"
     "json"
     #"kotlin"
-    #"lua"
+    "lua"
     "markdown"
     "nix"
     "python"
