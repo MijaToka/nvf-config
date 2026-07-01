@@ -13,38 +13,42 @@
       mapleader = " ";
     };
 
-    maps = {
-      normal = {
-        "<leader>pv" = {
-          action = ":Ex<CR>";
-          desc = "Project view";
-        };
-        "<leader>tp" = {
-          action = ":TypstPreview document<CR>";
-          desc = "Typst preview";
-        };
-        "<leader>tw" = {
-          action = ":terminal<CR>";
-          desc = "Open terminal window";
-        };
-        "<leader>tt" = {
-          action = ":ToggleTerm<CR>";
-          desc = "ToggleTerm";
-        };
-
-        "<leader>py" = {
-          action = ":Yazi<CR>";
-          desc = "Open yazi";
-        };
-      };
-      visual = { };
-      insert = { };
-      command = { };
-      terminal = {
-        "<esc><esc>" = {
-          action = "<C-\\><C-n>";
-        };
-      };
-    };
+    keymaps = [
+      {
+        desc = "Project view";
+        key = "<leader>pv";
+        mode = "n";
+        action = ":Ex<CR>";
+      }
+      {
+        desc = "Typst preview";
+        key = "<leader>tp";
+        mode = "n";
+        action = ":TypstPreview document<CR>";
+      }
+      {
+        desc = "Open terminal window";
+        key = "<leader>tw";
+        mode = "n";
+        action = ":terminal<CR>";
+      }
+      {
+        desc = "ToggleTerm";
+        key = "<leader>tt";
+        mode = "n";
+        action = ":ToggleTerm<CR>";
+      }
+      {
+        desc = "Open yazi";
+        key = "<leader>py";
+        mode = "n";
+        action = ":Yazi<CR>";
+      }
+      {
+        key = "<esc><esc>";
+        mode = "t";
+        action = "<C-\\><C-n>";
+      }
+    ];
   };
 }
