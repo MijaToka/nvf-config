@@ -1,9 +1,11 @@
 { pkgs, ... }:
 {
   vim.extraPlugins = {
-    remote-nvim = {
-      package = pkgs.vimPlugins.remote-nvim-nvim;
-      setup = "require('remote-nvim').setup()";
+    remote-sshfs = {
+      package = pkgs.vimPlugins.remote-sshfs-nvim;
+      setup = ''
+        require('remote-sshfs').setup({})
+      '';
     };
   };
 }
