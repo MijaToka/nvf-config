@@ -9,6 +9,7 @@
     ./lualine.nix
     ./luasnip.nix
     ./minimap.nix
+    ./movement.nix
     ./neotree.nix
     ./notify.nix
     ./projects.nix
