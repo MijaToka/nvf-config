@@ -21,7 +21,9 @@
       nvim-docs-view.enable = true;
 
       servers = {
-        "nixd".init_options.nixpkgs.expr = "import <nixpkgs> { }";
+        "nixd".init_options = {
+          nixpkgs.expr = "import <nixpkgs> { }";
+        };
       };
     };
 
