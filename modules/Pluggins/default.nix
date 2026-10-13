@@ -8,6 +8,7 @@
     ./lsp.nix
     ./lualine.nix
     ./luasnip.nix
+    ./molten.nix
     ./minimap.nix
     ./movement.nix
     ./neotree.nix
