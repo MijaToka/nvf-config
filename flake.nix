@@ -15,7 +15,11 @@
       perSystem = { system, ... }: {
         packages.default =
           (inputs.nvf.lib.neovimConfiguration {
-            pkgs = inputs.nixpkgs.legacyPackages.${system};
+            pkgs = import inputs.nixpkgs {
+              inherit system;
+              config.allowUnfreePredicate =
+                pkg: builtins.elem (inputs.nixpkgs.lib.getName pkg) [ "wezterm.nvim" ];
+            };
             modules = [ ./modules ];
           }).neovim;
       };
