@@ -2,6 +2,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
+    import-tree.url = "github:denful/import-tree";
 
     nvf = {
       url = "github:NotAShelf/nvf";
@@ -20,7 +21,7 @@
               config.allowUnfreePredicate =
                 pkg: builtins.elem (inputs.nixpkgs.lib.getName pkg) [ "wezterm.nvim" ];
             };
-            modules = [ ./modules ];
+            modules = [ (inputs.import-tree ./modules) ];
           }).neovim;
       };
       systems = [
