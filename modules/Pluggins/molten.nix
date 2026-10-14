@@ -8,7 +8,6 @@
         vim.g.magma_image_provider = "image.nvim"
       '';
     };
-    utility.images.image-nvim.enable = true;
 
     maps = {
       normal = {
